@@ -7,45 +7,69 @@
       <title>Anna Flávia Castro</title>
       <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/fd3837e039.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header>
-      <nav class="menu">
+      <nav class="menu" id="#">
         <ul>
           <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="title">
         <h1 class="site-title">Anna Flávia Castro</h1>
         <h2 class="site-subtitle">Software Developer</  h2>
       </div>
     </header>
-    <section class="projects">
+
+    <section class="projects" id="projects">
       <h2>Projetos</h2>
       <div class="grid">
         <figure>
           <img class="image-project" src="./images/alura.png" alt="Alura">
           <figcaption>Alura</figcaption>
         </figure>
+
         <figure>
           <img class="image-project" src="./images/caelum.png" alt=">Caelum">
           <figcaption>Caelum</figcaption>
         </figure>
+
         <figure>
           <img class="image-project" src="./images/hispters.png" alt="Hipsters">
           <figcaption>Hipsters</figcaption>
         </figure>
+
         <figure>
           <img class="image-project" src="./images/likeaboss.png" alt="Like a Boss">
           <figcaption>Like a Boss</figcaption>
         </figure>
+
         <figure>
           <img class="image-project" src="./images/hobby.png" alt="Hobby">
           <figcaption>Hobby</figcaption>
         </figure>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/annaflavia-castro">
+          <i class="fab fa-github"></i>
+        </a>
+        
+        <a target="_blank" href="https://www.linkedin.com/in/anna-fl%C3%A1via-castro-675264182/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/fla_castros/">
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
     </section>
   </body>
